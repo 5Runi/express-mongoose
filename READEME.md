@@ -23,15 +23,24 @@ You’ll be able to send HTTP requests (via Postman or Thunder Client) and watch
 ---
 
 ## 📁 Project Structure
-express-mongoose/
-├── server.js
-├── package.json
-├── .env
-├── dbConfig/
-│ └── db.js
-├── models/
-│ └── groceryModel.js
-├── controllers/
+express-mongoose/  
+
+├── server.js  
+
+├── package.json  
+
+├── .env  
+
+├── dbConfig/  
+
+│ └── db.js  
+
+├── models/  
+
+│ └── groceryModel.js  
+
+├── controllers/  
+
 │ └── groceryController.js
 
 ## 🧑‍💻 Getting Started
@@ -63,7 +72,8 @@ touch .env
 
 Then add the following lines (update with your own MongoDB Atlas credentials):
 
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxxx.mongodb.net/groceryDB?retryWrites=true&w=majority&appName=Cluster0
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.xxxxxx.mongodb.net/groceryDB?retryWrites=true&w=majority&appName=Cluster0  
+
 PORT=3000
 
 💡 Tips:
@@ -89,5 +99,6 @@ npm start
 
 If everything works, your terminal should show:
 
-Server running on port 3000
+Server running on port 3000  
+
 MongoDB Connected
