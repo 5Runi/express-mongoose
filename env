@@ -1,0 +1,4 @@
+MONGO_URI="mongodb://atlas-sql-69160f2718cfb153e5d3878b-hvale9.a.query.mongodb.net/groceryDB?ssl=true&authSource=admin"
+PORT=3000
+
+

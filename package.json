@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A basic Express API connected to MongoDB Atlas using Mongoose, with model and controller structure for grocery items.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
@@ -18,8 +19,9 @@
   "author": "Sky",
   "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.6.1",
     "express": "^4.19.2",
+    "mongodb": "^7.0.0",
     "mongoose": "^8.7.0"
   },
   "devDependencies": {
